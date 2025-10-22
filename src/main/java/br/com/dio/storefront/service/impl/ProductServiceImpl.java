@@ -7,10 +7,10 @@ import java.util.UUID;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
 
-import br.com.dio.storefront.IProductMapper;
 import br.com.dio.storefront.dto.ProductDetailDTO;
 import br.com.dio.storefront.dto.ProductInfoDTO;
 import br.com.dio.storefront.entity.ProductEntity;
+import br.com.dio.storefront.mapper.IProductMapper;
 import br.com.dio.storefront.repository.ProductRepository;
 import br.com.dio.storefront.service.IProductService;
 import lombok.AllArgsConstructor;
