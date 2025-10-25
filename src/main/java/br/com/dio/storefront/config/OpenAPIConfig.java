@@ -11,7 +11,7 @@ import io.swagger.v3.oas.models.info.Info;
 public class OpenAPIConfig {
 
 	@Bean
-	public OpenAPI customOpenAPI() {
+	OpenAPI customOpenAPI() {
 		return new OpenAPI().info(new Info().title("API da vitrine do E-Commerce")
 						.version("1.0")
 						.description("Documentação da API da vitrine do e-commerce."));

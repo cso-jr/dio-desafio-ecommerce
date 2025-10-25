@@ -29,6 +29,6 @@ spring:
     password: admin
     virtual-host: /
     queue:
-     product-change-availability: product.change.availability.queue
+      product-change-availability: product.change.availability.queue
 warehouse:
-    base-path: http://warehouseapp:8080/warehouse
+  base-path: http://warehouseapp:8080/warehouse

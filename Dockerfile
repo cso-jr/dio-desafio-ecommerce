@@ -15,10 +15,10 @@ WORKDIR ${INSTALL_PATH}
 COPY . .
 
 # Compila o projeto (gera o JAR dentro de /target)
-RUN mvn clean package -DskipTests
+#RUN mvn clean package -DskipTests
 
 # Expõe a porta padrão do Spring Boot
-EXPOSE 8081
+#EXPOSE 8081
 
 # Executa a aplicação
-CMD ["java", "-jar", "target/*.jar"]
+#CMD ["java", "-jar", "target/*.jar"]
